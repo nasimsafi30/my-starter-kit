@@ -27,3 +27,26 @@ storybook-static
 playwright-report
 test-results
 .eslintcache
+# TypeScript backup
+tsconfig.json.bak
+
+# Temp scripts
+fix.js
+setup-db.js
+alter-db.js
+check-db.js
+test-db.js
+test-neon.js
+seed-now.js
+reset-password.js
+create-admin.js
+check-images.js
+check-user.js
+fix-now.js
+create-table.js
+show-users.js
+verify-tables.js
+check-conn.js
+
+# Build cache
+.eslintcache
