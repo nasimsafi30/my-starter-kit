@@ -1,0 +1,43 @@
+﻿{
+  "app": {
+    "name": "StarterKit",
+    "description": "A production-ready Next.js application"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "logout": "Sign Out"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordLength": "Password must be at least 8 characters",
+    "passwordMatch": "Passwords must match",
+    "generic": "Something went wrong. Please try again.",
+    "unauthorized": "Please sign in to continue",
+    "forbidden": "You don't have permission to access this page",
+    "notFound": "Page not found"
+  },
+  "success": {
+    "login": "Welcome back!",
+    "register": "Account created successfully!",
+    "logout": "Signed out successfully!",
+    "profileUpdate": "Profile updated!",
+    "passwordReset": "Password reset email sent!"
+  }
+}

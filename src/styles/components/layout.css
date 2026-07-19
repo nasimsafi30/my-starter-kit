@@ -1,0 +1,141 @@
+﻿/* Container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container { max-width: 640px; }
+}
+
+@media (min-width: 768px) {
+  .container { max-width: 768px; }
+}
+
+@media (min-width: 1024px) {
+  .container { max-width: 1024px; }
+}
+
+@media (min-width: 1280px) {
+  .container { max-width: 1280px; }
+}
+
+/* Page wrapper */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sidebar layout */
+.with-sidebar {
+  display: flex;
+}
+
+.with-sidebar .sidebar {
+  width: 16rem;
+  flex-shrink: 0;
+}
+
+.with-sidebar .main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  border-bottom: 1px solid hsl(var(--border));
+  background: hsl(var(--background) / 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.header-inner {
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid hsl(var(--border));
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+/* Grid layouts */
+.grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid-auto-fill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Flex layouts */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive hide/show */
+.hide-on-mobile {
+  display: none;
+}
+
+.show-on-mobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hide-on-mobile {
+    display: block;
+  }
+  
+  .show-on-mobile {
+    display: none;
+  }
+}
+
+/* Sticky elements */
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  z-index: 30;
+}

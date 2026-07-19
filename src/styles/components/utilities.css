@@ -1,0 +1,121 @@
+﻿/* Spacing utilities */
+.gap-0 { gap: 0; }
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 0.75rem; }
+.gap-4 { gap: 1rem; }
+.gap-6 { gap: 1.5rem; }
+.gap-8 { gap: 2rem; }
+
+/* Border utilities */
+.border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
+
+/* Cursor utilities */
+.cursor-pointer { cursor: pointer; }
+.cursor-not-allowed { cursor: not-allowed; }
+.cursor-wait { cursor: wait; }
+.cursor-grab { cursor: grab; }
+.cursor-grabbing { cursor: grabbing; }
+
+/* Opacity utilities */
+.opacity-0 { opacity: 0; }
+.opacity-25 { opacity: 0.25; }
+.opacity-50 { opacity: 0.5; }
+.opacity-75 { opacity: 0.75; }
+.opacity-100 { opacity: 1; }
+
+/* Overflow utilities */
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Visibility utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
+
+/* Responsive images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Aspect ratios */
+.aspect-video { aspect-ratio: 16 / 9; }
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-portrait { aspect-ratio: 3 / 4; }
+.aspect-landscape { aspect-ratio: 4 / 3; }
+
+/* Backdrop filters */
+.backdrop-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.backdrop-blur-lg {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}

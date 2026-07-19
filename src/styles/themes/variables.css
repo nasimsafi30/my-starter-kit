@@ -1,0 +1,61 @@
+﻿:root {
+  /* Brand Colors */
+  --brand-primary: #0066FF;
+  --brand-secondary: #6C63FF;
+  --brand-accent: #FF6B6B;
+  --brand-success: #10B981;
+  --brand-warning: #F59E0B;
+  --brand-error: #EF4444;
+  --brand-info: #3B82F6;
+
+  /* Neutral Colors */
+  --neutral-50: #F8FAFC;
+  --neutral-100: #F1F5F9;
+  --neutral-200: #E2E8F0;
+  --neutral-300: #CBD5E1;
+  --neutral-400: #94A3B8;
+  --neutral-500: #64748B;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1E293B;
+  --neutral-900: #0F172A;
+  --neutral-950: #020617;
+
+  /* Semantic Colors */
+  --color-success: var(--brand-success);
+  --color-success-light: #D1FAE5;
+  --color-success-dark: #065F46;
+
+  --color-warning: var(--brand-warning);
+  --color-warning-light: #FEF3C7;
+  --color-warning-dark: #92400E;
+
+  --color-error: var(--brand-error);
+  --color-error-light: #FEE2E2;
+  --color-error-dark: #991B1B;
+
+  --color-info: var(--brand-info);
+  --color-info-light: #DBEAFE;
+  --color-info-dark: #1E40AF;
+
+  /* Typography */
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-family-display: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Letter Spacing */
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+}
