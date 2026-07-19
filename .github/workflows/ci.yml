@@ -21,4 +21,5 @@ jobs:
           node-version: 22
           cache: 'npm'
       - run: npm install
+      - run: npm install typescript --save-dev
       - run: npx next build
