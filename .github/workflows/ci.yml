@@ -3,12 +3,10 @@ name: CI
 on:
   push:
     branches: [main, master]
-  pull_request:
-    branches: [main, master]
 
 env:
   DATABASE_URL: postgresql://dummy:dummy@localhost:5432/dummy
-  AUTH_SECRET: dummy-secret-for-build-only
+  AUTH_SECRET: dummy-secret
   AUTH_URL: http://localhost:3000
   NEXT_PUBLIC_APP_URL: http://localhost:3000
   NODE_ENV: production
