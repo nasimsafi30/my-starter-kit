@@ -1,8 +1,6 @@
-name: CI
+name: Build
 
-on:
-  push:
-    branches: [main, master]
+on: [push]
 
 jobs:
   build:
@@ -13,4 +11,5 @@ jobs:
         with:
           node-version: 22
       - run: npm install
+      - run: ls -la
       - run: npm run build
