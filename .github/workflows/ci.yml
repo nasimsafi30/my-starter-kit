@@ -5,11 +5,11 @@ on:
     branches: [main, master]
 
 env:
+  NODE_ENV: production
   DATABASE_URL: postgresql://dummy:dummy@localhost:5432/dummy
-  AUTH_SECRET: dummy-secret
+  AUTH_SECRET: dummy
   AUTH_URL: http://localhost:3000
   NEXT_PUBLIC_APP_URL: http://localhost:3000
-  NODE_ENV: production
 
 jobs:
   build:
@@ -19,7 +19,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
-      - run: npm ls typescript
-      - run: npx tsc --version
-      - run: node_modules/.bin/next build
+      - run: npm install --include=dev --legacy-peer-deps
+      - run: npx next build
