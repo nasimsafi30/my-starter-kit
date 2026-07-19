@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
       - run: npm install
-      - run: npm install typescript --save-dev
-      - run: npx next build
+      - run: npm ls typescript
+      - run: npx tsc --version
+      - run: node_modules/.bin/next build
