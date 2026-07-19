@@ -1,0 +1,43 @@
+﻿{
+  "app": {
+    "name": "StarterKit",
+    "description": "Une application Next.js prête pour la production"
+  },
+  "nav": {
+    "home": "Accueil",
+    "dashboard": "Tableau de Bord",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "notifications": "Notifications",
+    "logout": "Déconnexion"
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "forgotPassword": "Mot de passe oublié ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "noAccount": "Pas de compte ?",
+    "haveAccount": "Déjà un compte ?"
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Adresse email invalide",
+    "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+    "passwordMatch": "Les mots de passe doivent correspondre",
+    "generic": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "unauthorized": "Veuillez vous connecter pour continuer",
+    "forbidden": "Vous n'avez pas la permission d'accéder à cette page",
+    "notFound": "Page non trouvée"
+  },
+  "success": {
+    "login": "Bon retour !",
+    "register": "Compte créé avec succès !",
+    "logout": "Déconnecté avec succès !",
+    "profileUpdate": "Profil mis à jour !",
+    "passwordReset": "Email de réinitialisation envoyé !"
+  }
+}

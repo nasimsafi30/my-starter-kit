@@ -1,0 +1,43 @@
+﻿{
+  "app": {
+    "name": "StarterKit",
+    "description": "Una aplicación Next.js lista para producción"
+  },
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "notifications": "Notificaciones",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "forgotPassword": "¿Olvidó su contraseña?",
+    "resetPassword": "Restablecer Contraseña",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "rememberMe": "Recordarme",
+    "noAccount": "¿No tiene cuenta?",
+    "haveAccount": "¿Ya tiene cuenta?"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo electrónico inválido",
+    "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+    "passwordMatch": "Las contraseñas deben coincidir",
+    "generic": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "unauthorized": "Por favor, inicie sesión para continuar",
+    "forbidden": "No tiene permiso para acceder a esta página",
+    "notFound": "Página no encontrada"
+  },
+  "success": {
+    "login": "¡Bienvenido de nuevo!",
+    "register": "¡Cuenta creada exitosamente!",
+    "logout": "¡Sesión cerrada exitosamente!",
+    "profileUpdate": "¡Perfil actualizado!",
+    "passwordReset": "¡Correo de restablecimiento enviado!"
+  }
+}
